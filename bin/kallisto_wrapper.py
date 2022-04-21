@@ -61,7 +61,7 @@ def quant(args, ind, outd, files):
         optional_args += '-t ' + args['threads'] + ' '
 
     if args['pseudobam'] == 'yes':
-        optional_args += '--psuedobam '
+        optional_args += '--pseudobam '
 
     if args['genomebam'] == 'yes':
         optional_args += '--genomebam '
